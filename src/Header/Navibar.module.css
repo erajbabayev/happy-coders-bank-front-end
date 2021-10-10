@@ -1,0 +1,33 @@
+.logo img{
+    width: 200px;
+
+}
+
+.logo {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:white;
+
+}
+
+.login{
+    display:flex;
+    justify-content:end;
+    text-align: end;
+
+}
+.navbar{
+    background-color:aliceblue;
+    padding-top: 10px;
+
+}
+
+.indicatorColor{
+    background-color: aqua;
+}
+
+.banner img{
+    display: flex;
+    padding-top: 120px;
+}
