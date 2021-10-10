@@ -1,0 +1,35 @@
+
+.icon{
+vertical-align: middle;
+display: inline-flex;
+
+  transform: scale(3);
+  color:darkblue;
+
+}
+
+.container {
+    margin:30px;
+
+}
+
+.table h4,h2,p{
+    padding: 10px 0;
+    font-size: 24px;
+}
+.grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.creditCards img{
+width:250px;
+align-items: center;
+vertical-align: middle;
+
+}
+
+.creditCards{
+    padding: 100px 0;
+}

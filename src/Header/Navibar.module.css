@@ -29,5 +29,9 @@
 
 .banner img{
     display: flex;
-    padding-top: 120px;
+    padding-top: 100px;
+}
+
+Table {
+    padding: 30px;
 }
