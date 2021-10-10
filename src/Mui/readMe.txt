@@ -1,0 +1,2 @@
+1. Create your own theme colors as in theme.js and then wrapp index.js with ThemeProvider
+2. Making logo different for mobile and desktop differently look to breakpoints in material ui and also Navbar.js

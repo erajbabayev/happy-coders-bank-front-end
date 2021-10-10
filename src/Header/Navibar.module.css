@@ -32,8 +32,12 @@
 }
 
 .banner img{
-    display: flex;
-    padding-top: 100px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+
+
 }
 
 Table {

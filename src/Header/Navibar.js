@@ -1,62 +1,33 @@
-import {  AppBar, Button, Grid, Tab, Tabs } from "@mui/material";
+import { AppBar, Tabs, Tab, Toolbar, Typography, Button } from "@mui/material";
 import React from "react";
-import CustomerAccount from "./CustomerAccount"
-import CustomerLogin from "./CustomerLogin"
-import Logo from "../Images/logo.png"
-import styles from "./Navibar.module.css"
+import logo from "../Images/logo-white.png";
 
-export default function Navibar() {
-  const [value, setValue] = React.useState("one");
-
-
-// If customer is loged in it will show CustomerAccount else CustomerLogin Button
-  const[isLoged, setIsLoged] = React.useState(false)
+export default function ButtonAppBar() {
+  const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-
   return (
-    <AppBar>
-      <div className={styles.logo}>
-        <img src={Logo} alt="" />
-      </div>
-      <Grid className={styles.navbar} container>
-        <Grid item xs={10}>
-          <Tabs
-            value={value}
-            onChange={handleChange}
-            textColor="primary"
-            indicatorColor="primary"
-            aria-label="secondary tabs example"
-          >
-            <Tab className={styles.tab} value="one" label="About Us" />
-            <Tab className={styles.tab} value="two" label="Product" />
-            <Tab className={styles.tab} value="three" label="Package" />
-            <Tab className={styles.tab} value="four" label="Contact Us" />
-          </Tabs>
-        </Grid>
-        <Grid item xs={2}>
-          <Button
-            id="demo-positioned-button"
-            aria-controls="demo-positioned-menu"
-            aria-haspopup="true"
-            aria-expanded={open ? "true" : undefined}
-            onClick={handleClick}
-          >
-            {isLoged ? <CustomerAccount /> : <CustomerLogin />}
-          </Button>
-        </Grid>
-      </Grid>
+    <AppBar position="fixed">
+      <Toolbar>
+        <div>
+          <img src={logo} alt="" />
+        </div>
+        <Tabs
+          indicatorColor="secondary"
+          textColor="white"
+          value={value}
+          onChange={handleChange}
+          sx={{ flexGrow: 1, paddingLeft: 20 }}
+        >
+          <Tab label="About Us" />
+          <Tab label="Products" />
+          <Tab label="Packages" />
+          <Tab label="Contact Us" />
+        </Tabs>{" "}
+        <Button color="inherit">Login</Button>
+      </Toolbar>
     </AppBar>
   );
 }

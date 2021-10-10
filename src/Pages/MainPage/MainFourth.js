@@ -35,7 +35,9 @@ function MainFourth() {
           <p>Add upto 5 Users</p>
           <Divider variant="middle" />
           <p>Internet Banking</p>
-          <Button variant="outlined">Apply Now</Button>
+          <Button variant="contained" color="secondary">
+            Apply Now
+          </Button>
         </Grid>
         <Grid className={styles.boxes2} item xs={4}>
           <p>Minumum Deposit $500 Free </p>
@@ -45,7 +47,9 @@ function MainFourth() {
           <p>Add upto 5 Users</p>
           <Divider variant="middle" />
           <p>Internet Banking</p>
-          <Button variant="outlined">Apply Now</Button>
+          <Button variant="contained" color="secondary">
+            Apply Now
+          </Button>
         </Grid>
         <Grid className={styles.boxes2} item xs={4}>
           <p>Minumum Deposit $0 Free </p>
@@ -55,7 +59,9 @@ function MainFourth() {
           <p>Add upto 20 Users</p>
           <Divider variant="middle" />
           <p>Internet Banking</p>
-          <Button variant="outlined">Apply Now</Button>
+          <Button variant="contained" color="secondary">
+            Apply Now
+          </Button>
         </Grid>
       </Grid>
     </Container>

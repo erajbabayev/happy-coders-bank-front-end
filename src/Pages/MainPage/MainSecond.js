@@ -9,8 +9,13 @@ import styles from "./MainPage.module.css";
 
 function MainSecond() {
     return (
-      <Grid container spacing={7} style={{ paddingTop: "30px" }}>
-        <Grid item xs={4}>
+      <Grid
+        className={styles.second}
+        container
+        spacing={7}
+        style={{ paddingTop: "30px" }}
+      >
+        <Grid  item xs={4}>
           <img src={image} alt="" />
         </Grid>
         <Grid item xs={8} className={styles.grid}>
