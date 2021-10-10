@@ -20,7 +20,11 @@
 .navbar{
     background-color:aliceblue;
     padding-top: 10px;
-
+    padding-left: 1git 00px;
+}
+.tab {
+     min-width: 200px;
+     width: 200px;
 }
 
 .indicatorColor{

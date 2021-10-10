@@ -1,3 +1,4 @@
+import Footer from "./Footer/Footer";
 import Navibar from "./Header/Navibar";
 import MainPage from "./Pages/MainPage/MainPage";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Navibar />
       <MainPage />
+      <Footer />
     </div>
   );
 }

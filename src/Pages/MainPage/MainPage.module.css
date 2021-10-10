@@ -33,3 +33,29 @@ vertical-align: middle;
 .creditCards{
     padding: 100px 0;
 }
+
+.boxes{
+    background-color:darkkhaki;
+    border: 1px solid gray;
+    text-align: center;
+ 
+}
+
+.boxes:hover{
+    background-color: darksalmon;
+}
+
+.boxes2{
+    background-color:aliceblue;
+    border: 1px solid gray;
+    text-align: center;
+ 
+}
+
+.boxes2:hover{
+    background-color:gold;
+        border: 1px solid ;
+
+    padding-bottom: 10px;
+}
+

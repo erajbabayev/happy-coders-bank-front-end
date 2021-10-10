@@ -30,7 +30,7 @@ export default function Navibar() {
       <div className={styles.logo}>
         <img src={Logo} alt="" />
       </div>
-      <Grid className={styles.navbar} container >
+      <Grid className={styles.navbar} container>
         <Grid item xs={10}>
           <Tabs
             value={value}
@@ -39,10 +39,10 @@ export default function Navibar() {
             indicatorColor="primary"
             aria-label="secondary tabs example"
           >
-            <Tab value="one" label="About Us" />
-            <Tab value="two" label="Product" />
-            <Tab value="three" label="Package" />
-            <Tab value="four" label="Contact Us" />
+            <Tab className={styles.tab} value="one" label="About Us" />
+            <Tab className={styles.tab} value="two" label="Product" />
+            <Tab className={styles.tab} value="three" label="Package" />
+            <Tab className={styles.tab} value="four" label="Contact Us" />
           </Tabs>
         </Grid>
         <Grid item xs={2}>

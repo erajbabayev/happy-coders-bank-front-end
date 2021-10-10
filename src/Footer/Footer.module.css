@@ -1,0 +1,10 @@
+.footer{
+    height: 200px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+.footer li{
+        list-style: none;
+
+}
