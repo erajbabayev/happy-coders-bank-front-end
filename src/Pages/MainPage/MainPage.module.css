@@ -18,6 +18,14 @@ display: inline-flex;
     padding: 10px 50px;
     font-size: 22px;
 }
+
+.table h4,h2{
+    color: darkblue;
+    font-weight: 600;
+  
+
+ 
+}
 .grid {
     display: flex;
     align-items: center;
