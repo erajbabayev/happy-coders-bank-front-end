@@ -1,71 +1,61 @@
-
-.icon{
-vertical-align: middle;
-display: inline-flex;
+.icon {
+  vertical-align: middle;
+  display: inline-flex;
 
   transform: scale(3);
-  color:darkblue;
+  color: darkblue;
   border: 1px solid darkblue;
-
 }
 
 .container {
-    margin:30px;
-
+  margin: 30px;
 }
 
-.table h4,h2,p{
-    padding: 10px 50px;
-    font-size: 22px;
+.table p {
+  font-size: 22px;
+  padding: 10px 50px;
 }
 
-.table h4,h2{
-    color: darkblue;
-    font-weight: 600;
-  
-
- 
+.table h4,
+h2 {
+  color: darkblue;
+  font-weight: 600;
 }
 .grid {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-left: 50px;
-    
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 50px;
 }
-.creditCards img{
-width:250px;
-align-items: center;
-vertical-align: middle;
-
+.creditCards img {
+  width: 250px;
+  align-items: center;
+  vertical-align: middle;
 }
 
-.creditCards{
-    padding: 100px 0;
+.creditCards {
+  padding: 100px 0;
 }
 
-.boxes{
-    background-color:darkkhaki;
-    border: 1px solid gray;
-    text-align: center;
- 
+.boxes {
+  background-color: darkkhaki;
+  border: 1px solid gray;
+  text-align: center;
 }
 
-.boxes:hover{
-    background-color: darksalmon;
+.boxes:hover {
+  background-color: darksalmon;
 }
 
-.boxes2{
-    background-color:aliceblue;
-    border: 1px solid gray;
-    text-align: center;
- 
+.boxes2 {
+  background-color: aliceblue;
+  border: 1px solid gray;
+  text-align: center;
 }
 
-.boxes2:hover{
-    background-color:gold;
-        border: 1px solid ;
+.boxes2:hover {
+  background-color: gold;
+  border: 1px solid;
 
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
-
