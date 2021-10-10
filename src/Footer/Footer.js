@@ -11,9 +11,9 @@ function Footer() {
               <ul>
                 <h2>Our Company</h2>
 
-                <li>MTD Bank</li>
-                <li>West road, F1 456 Tram Town.</li>
-                <li>Office No 2312s</li>
+                <li>Happy Coders Bank</li>
+                <li>Somewhere in the world</li>
+                <li>Most probably US</li>
               </ul>
             </Grid>
             <Grid item sx={2}>
