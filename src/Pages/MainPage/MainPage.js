@@ -2,16 +2,16 @@ import React from "react";
 import Banner from "../../Banner/Banner";
 import MainFourth from "./MainFourth";
 import styles from "./MainPage.module.css";
+import Card from "./Card";
+import CreditCards from "./CreditCards"
 
-import MainSecond from "./MainSecond";
-import MainThird from "./MainThird";
 
 function MainPage() {
   return (
-    <div className={styles.container}>
+    <div>
       <Banner />
-      <MainSecond />
-      <MainThird />
+      <Card />
+      <CreditCards />
       <MainFourth />
       
     </div>

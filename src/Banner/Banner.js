@@ -1,50 +1,64 @@
-import React from 'react';
-import { UncontrolledCarousel } from 'reactstrap';
-import Banner1 from "../Images/bannerPictures/Slider-1.jpeg"
-import Banner2 from "../Images/bannerPictures/Slider-2.jpeg"
-import Banner3 from "../Images/bannerPictures/Slider-3.jpeg"
-import Banner4 from "../Images/bannerPictures/Slider-4.jpeg"
-import Banner5 from "../Images/bannerPictures/Slider-5.jpeg"
+import { SignalWifiStatusbarConnectedNoInternet4Sharp } from '@mui/icons-material';
+import React from 'react'
+import { Carousel } from 'react-bootstrap';
 import styles from "../Header/Navibar.module.css"
+import Slider1 from "../Images/bannerPictures/Slider-1.jpeg"
+import Slider2 from "../Images/bannerPictures/Slider-2.jpeg"
+import Slider3 from "../Images/bannerPictures/Slider-3.jpeg"
+import Slider4 from "../Images/bannerPictures/Slider-4.jpeg"
+import Slider5 from "../Images/bannerPictures/Slider-5.jpeg"
 
-const items = [
-  {
-    src: Banner1 ,
-    altText: "Slide 1",
-    caption: "Slide 1",
-    header: "Slide 1 Header",
-    key: "1",
-  },
-  {
-    src:  Banner2 ,
-    altText: "Slide 2",
-    caption: "Slide 2",
-    header: "Slide 2 Header",
-    key: "2",
-  },
-  {
-    src: Banner3 ,
-    altText: "Slide 3",
-    caption: "Slide 3",
-    header: "Slide 3 Header",
-    key: "3",
-  },
-  {
-    src:  Banner4 ,
-    altText: "Slide 4",
-    caption: "Slide 4",
-    header: "Slide 4 Header",
-    key: "4",
-  },
-  {
-    src: Banner5 ,
-    altText: "Slide 5",
-    caption: "Slide 5",
-    header: "Slide 5 Header",
-    key: "5",
-  },
-];
+function Banner() {
+    return (
+      <Carousel className={styles.banner}>
+        <Carousel.Item>
+          <img className="d-block w-100" src={Slider1} alt="First slide" />
+          <Carousel.Caption>
+            {/* <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
 
-const Example = () => <UncontrolledCarousel className={styles.banner} items={items} />;
+        <Carousel.Item>
+          <img className="d-block w-100" src={Slider2} alt="Second slide" />
+          <Carousel.Caption>
+            {/* <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
 
-export default Example;
+        <Carousel.Item>
+          <img className="d-block w-100" src={Slider3} alt="Third slide" />
+          <Carousel.Caption>
+            {/* <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src={Slider4} alt="Third slide" />
+          <Carousel.Caption>
+            {/* <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src={Slider5} alt="Third slide" />
+          <Carousel.Caption>
+            {/* <h3>Third slide label</h3>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
+
+      </Carousel>
+    );
+}
+
+export default Banner

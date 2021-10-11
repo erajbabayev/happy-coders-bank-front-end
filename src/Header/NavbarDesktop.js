@@ -9,22 +9,22 @@ import logo from "../Images/logo-white.png";
 function NavbarDesktop({value,handleChange}) {
   
     return (
-      <AppBar position="fixed" >
-        <Toolbar>
+      <AppBar position="fixed">
+        <Toolbar sx={{zIndex:999}}>
           <div>
-            <img style={{width:200, padding:10}} src={logo} alt="" />
+            <img style={{ width: 200, padding: 10 }} src={logo} alt="" />
           </div>
           <Tabs
             indicatorColor="secondary"
-            textColor="white"
+            textColor="inherit"
             value={value}
             onChange={handleChange}
             sx={{ flexGrow: 1, paddingLeft: 20 }}
           >
-            <Tab label="About Us" />
-            <Tab label="Products" />
-            <Tab label="Packages" />
-            <Tab label="Contact Us" />
+            <Tab sx={{ minWidth: 200, width: 150 }} label="About Us" />
+            <Tab sx={{ minWidth: 200, width: 150 }} label="Products" />
+            <Tab sx={{ minWidth: 200, width: 150 }} label="Packages" />
+            <Tab sx={{ minWidth: 200, width: 150 }} label="Contact Us" />
           </Tabs>
           <Button color="inherit">Login</Button>
         </Toolbar>

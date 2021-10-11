@@ -1,45 +1,11 @@
-.logo img{
-    width: 200px;
-
-}
-
-.logo {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color:white;
-
-}
-
-.login{
-    display:flex;
-    justify-content:end;
-    text-align: end;
-
-}
-.navbar{
-    background-color:aliceblue;
-    padding-top: 10px;
-    padding-left: 1git 00px;
-}
-.tab {
-     min-width: 200px;
-     width: 200px;
-}
-
-.indicatorColor{
-    background-color: aqua;
-}
 
 .banner img{
     margin: 0;
-    display: block;
+    display:inline;
     width: 100%;
     min-width: 100%;
-
-
 }
+.banner{
+ padding-top: 90px;
 
-Table {
-    padding: 30px;
 }
